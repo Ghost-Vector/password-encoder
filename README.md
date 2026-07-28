@@ -77,7 +77,7 @@ POST /api/v1/password/encode HTTP/1.1
 Content-Type: application/json
 
 {
-    "password": "password"
+    "password": "your_new_password"
 }
 ```
 
@@ -85,7 +85,7 @@ Content-Type: application/json
 
 ```json
 {
-    "encodedPassword": "{SHA-256}{1}5787039480429368bf94732aacc771cd0a3ea02bcf504ffe1185ab94213bc63a"
+    "encodedPassword": "{SHA-256}{id}password"
 }
 ```
 
@@ -108,7 +108,7 @@ java -jar target/mifos-password-encoder-0.0.1-SNAPSHOT.jar encode password
 #### Output
 
 ```text
-{SHA-256}{1}5787039480429368bf94732aacc771cd0a3ea02bcf504ffe1185ab94213bc63a
+{SHA-256}{id}encrypted_password
 ```
 
 If invalid arguments are supplied, the application displays:
@@ -186,5 +186,4 @@ src/main/java/org/apache/mifos/passwordencoder/
 - `exception`: Manages centralized REST exception handling and HTTP error mappings.
 - `service`: Orchestrates password encoding operations between entry points and the encoding engine.
 - `util`: Implements core SHA-256 legacy password hashing logic using standard Java libraries.
-
 #
