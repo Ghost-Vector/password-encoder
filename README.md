@@ -187,23 +187,4 @@ src/main/java/org/apache/mifos/passwordencoder/
 - `service`: Orchestrates password encoding operations between entry points and the encoding engine.
 - `util`: Implements core SHA-256 legacy password hashing logic using standard Java libraries.
 
-## Design Decisions
-
-- **Java 21 Records**: Used for immutable DTOs to eliminate boilerplate code.
-- **Constructor Injection**: Ensures immutability and testability for components.
-- **Service Layer**: Decouples HTTP and CLI entry points from core encoding rules.
-- **Standalone Utility**: Keeps dependencies minimal with no Apache Fineract framework overhead.
-- **No Third-Party CLI Framework**: Uses native Spring Boot `CommandLineRunner` to avoid unnecessary external dependencies.
-
-## Future Improvements
-
-Possible future enhancements include:
-
-- Support for additional legacy hashing algorithms.
-- OpenAPI / Swagger documentation.
-- Automated unit and integration test suites.
-- CI/CD build pipeline integration.
-
-## License
-
-License information can be added according to your organization's requirements.
+#
