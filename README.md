@@ -1,10 +1,10 @@
-# mifos-password-encoder
+# password-encoder
 
-A standalone Java 21 utility for generating legacy Apache Fineract-compatible password hashes.
+A standalone Java 21 utility for generating legacy password hashes.
 
 ## Overview
 
-`mifos-password-encoder` generates legacy password hashes formatted specifically for historical Apache Fineract database scripts during manual tenant creation. 
+`password-encoder` generates legacy password hashes formatted specifically for historical Apache Fineract database scripts during manual tenant creation. 
 
 Older tenant provisioning scripts require password hashes encoded in the `{SHA-256}{1}<hexDigest>` format. This utility reproduces that specific encoding logic cleanly without pulling in Apache Fineract dependencies.
 
