@@ -1,4 +1,4 @@
-# legacy-password-encoder
+# Legacy-Password-Encoder
 
 A standalone Java 21 utility for generating legacy password hashes.
 
