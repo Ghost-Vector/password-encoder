@@ -1,6 +1,6 @@
-package org.apache.mifos.passwordencoder.exception;
+package org.apache.passwordencoder.exception;
 
-import org.apache.mifos.passwordencoder.dto.ErrorResponse;
+import org.apache.passwordencoder.dto.ErrorResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;

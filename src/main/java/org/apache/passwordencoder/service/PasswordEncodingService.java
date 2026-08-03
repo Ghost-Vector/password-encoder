@@ -1,6 +1,6 @@
-package org.apache.mifos.passwordencoder.service;
+package org.apache.passwordencoder.service;
 
-import org.apache.mifos.passwordencoder.util.LegacyPasswordEncoder;
+import org.apache.passwordencoder.util.LegacyPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 /**
@@ -16,7 +16,7 @@ import org.springframework.stereotype.Service;
 public class PasswordEncodingService {
 
     /**
-     * Encodes a plain-text password into the legacy Mifos password hash format.
+     * Encodes a plain-text password into the legacy password hash format.
      *
      * @param password the plain-text password to encode
      * @return the formatted legacy password hash string

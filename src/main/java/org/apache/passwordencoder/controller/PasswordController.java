@@ -1,8 +1,8 @@
-package org.apache.mifos.passwordencoder.controller;
+package org.apache.passwordencoder.controller;
 
-import org.apache.mifos.passwordencoder.dto.PasswordRequest;
-import org.apache.mifos.passwordencoder.dto.PasswordResponse;
-import org.apache.mifos.passwordencoder.service.PasswordEncodingService;
+import org.apache.passwordencoder.dto.PasswordRequest;
+import org.apache.passwordencoder.dto.PasswordResponse;
+import org.apache.passwordencoder.service.PasswordEncodingService;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -26,7 +26,7 @@ public class PasswordController {
     }
 
     /**
-     * Encodes a plain-text password into the legacy Mifos password hash format.
+     * Encodes a plain-text password into the legacy password hash format.
      *
      * @param request the password request containing the plaintext password
      * @return response containing the generated legacy password hash

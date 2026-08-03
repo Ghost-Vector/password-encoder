@@ -11,11 +11,11 @@
         <relativePath/>
     </parent>
 
-    <groupId>org.apache.mifos</groupId>
-    <artifactId>mifos-password-encoder</artifactId>
+    <groupId>org.apache.passwordencoder</groupId>
+    <artifactId>legacy-password-encoder</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>mifos-password-encoder</name>
-    <description>Standalone utility for generating legacy Mifos password hashes</description>
+    <name>legacy-password-encoder</name>
+    <description>Standalone utility for generating legacy password hashes</description>
 
     <properties>
         <java.version>21</java.version>
