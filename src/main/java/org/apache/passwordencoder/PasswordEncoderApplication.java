@@ -1,11 +1,11 @@
-package org.apache.mifos.passwordencoder;
+package org.apache.passwordencoder;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * Main application entry point for the Mifos Password Encoder Spring Boot application.
+ * Main application entry point for the Password Encoder Spring Boot application.
  */
 @SpringBootApplication
 public class PasswordEncoderApplication {

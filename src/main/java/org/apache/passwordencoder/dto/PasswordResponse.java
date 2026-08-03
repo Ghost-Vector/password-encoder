@@ -1,4 +1,4 @@
-package org.apache.mifos.passwordencoder.dto;
+package org.apache.passwordencoder.dto;
 
 /**
  * Data Transfer Object representing the encoded password returned by the API.

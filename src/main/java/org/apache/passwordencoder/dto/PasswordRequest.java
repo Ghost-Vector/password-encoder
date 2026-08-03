@@ -1,4 +1,4 @@
-package org.apache.mifos.passwordencoder.dto;
+package org.apache.passwordencoder.dto;
 
 /**
  * Data Transfer Object representing the incoming password encoding request.

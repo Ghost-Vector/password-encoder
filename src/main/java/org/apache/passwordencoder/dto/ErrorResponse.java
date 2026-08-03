@@ -1,4 +1,4 @@
-package org.apache.mifos.passwordencoder.dto;
+package org.apache.passwordencoder.dto;
 
 /**
  * Represents a minimal API error response.

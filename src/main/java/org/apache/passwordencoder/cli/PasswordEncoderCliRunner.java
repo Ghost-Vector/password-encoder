@@ -1,6 +1,6 @@
-package org.apache.mifos.passwordencoder.cli;
+package org.apache.passwordencoder.cli;
 
-import org.apache.mifos.passwordencoder.service.PasswordEncodingService;
+import org.apache.passwordencoder.service.PasswordEncodingService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -34,7 +34,7 @@ public class PasswordEncoderCliRunner implements CommandLineRunner {
                 System.out.println("Error: " + e.getMessage());
             }
         } else {
-            System.out.println("Usage: java -jar mifos-password-encoder.jar encode <password>");
+            System.out.println("Usage: java -jar password-encoder.jar encode <password>");
         }
     }
 }

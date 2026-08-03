@@ -1,4 +1,4 @@
-package org.apache.mifos.passwordencoder.util;
+package org.apache.passwordencoder.util;
 
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
@@ -6,9 +6,9 @@ import java.security.NoSuchAlgorithmException;
 import java.util.HexFormat;
 
 /**
- * Utility for generating legacy Mifos password hashes.
+ * Utility for generating legacy password hashes.
  * <p>
- * Reproduces Apache Fineract's legacy password encoding format for manual tenant creation.
+ * Reproduces the legacy password encoding format for manual tenant creation.
  * This utility must not be used for runtime authentication and is not a replacement for BCrypt.
  * </p>
  *
